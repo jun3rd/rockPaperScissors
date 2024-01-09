@@ -3,6 +3,7 @@ import random
 def play():
     user = input(f"'r' for rock, 'p' for paper, 's' for scissors?")
     computer = random.choice(['r', 'p', 's'])
+    print(f"You: {user}; computer: {computer}")
     if user == computer:
         return 'It\'s a tie'
     
